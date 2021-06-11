@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 175px;
+    margin-bottom: 50px;
+}
+
+#home {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 800px;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'PT+Sans+Narrow', cursive;
+}
+
+p {
+    font-size: 23px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.list1 {
+    display: inline;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.list1:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+
+.blackLine {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.contact1{
+    background-color: #08eaff;
+}
